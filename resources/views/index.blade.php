@@ -19,10 +19,12 @@
       <div>
         <div class="brand-logo d-flex align-items-center justify-content-between">
           {{-- LOGO --}}
-          <a href="./index.html" class="text-nowrap logo-img">
-            <img src="{{asset('images/logos/pawonkoe.png')}}" width="65" alt="" />
-          </a>
-          <h2 class="padding-left : 10px">PawonKoe</h2>
+          <div class="d-inline-flex p-2 align-items-center gap-3">
+            <a href="./index.html" class="text-nowrap logo-img">
+              <img src="{{asset('images/logos/pawonkoe.png')}}" width="40" alt="" />
+            </a>
+            <h2 class="padding-left : 10px fs-5 ">PawonKoe</h2>
+          </div>
           <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
             <i class="ti ti-x fs-8"></i>
           </div>
@@ -86,7 +88,7 @@
               </a>
             </li>
             <li>
-              <h1 class="fs-8 ml-auto">Hi, Admin</h1>
+              <h1 class="fs-6 ml-auto">Hi, Admin</h1>
             </li>
           </ul>
           <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
